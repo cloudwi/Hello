@@ -49,7 +49,7 @@ jobs:
 
     # 압축파일 형태로 전달
     - name: Make zip file
-      run: zip -r -qq -j ./springboot-build.zip ./deploy
+      run: zip -r ./springboot-build.zip ./deploy
 
     - name: Configure AWS credentials
       uses: aws-actions/configure-aws-credentials@v1
