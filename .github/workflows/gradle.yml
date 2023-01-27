@@ -10,7 +10,7 @@ on:
 env:
   AWS_REGION: ap-northeast-2
   S3_BUCKET_NAME: deploy-bucket
-  CODE_DEPLOY_APPLICATION_NAME: Hello
+  CODE_DEPLOY_APPLICATION_NAME: deploy
   CODE_DEPLOY_DEPLOYMENT_GROUP_NAME: deploy-group
 
 permissions:
